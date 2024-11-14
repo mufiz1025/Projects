@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+      
+      {
+        "name": "ContosoPetsApplication",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build ContosoPetsApplication",
+        "program": "${workspaceFolder}/ContosoPetsApplication/bin/Debug/net8.0/ContosoPetsApplication.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/ContosoPetsApplication",
+        "stopAtEntry": false,
+        "console": "externalTerminal",
+        "internalConsoleOptions": "neverOpen"
+      },
+      {
+        "name": "MorocoPetsApplication",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build MorocoPetsApplication",
+        "program": "${workspaceFolder}/MorocoPetsApplication/bin/Debug/net8.0/MorocoPetsApplication.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/MorocoPetsApplication",
+        "stopAtEntry": false,
+        "console": "externalTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  

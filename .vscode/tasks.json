@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build ContosoPetsApplication",
+          "command": "dotnet",
+          "type": "process",
+          "args": [
+              "build",
+              "${workspaceFolder}/ContosoPetsApplication/ContosoPetsApplication.csproj"
+          ],
+          "problemMatcher": "$msCompile",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      },
+      {
+          "label": "build MorocoPetsApplication",
+          "command": "dotnet",
+          "type": "process",
+          "args": [
+              "build",
+              "${workspaceFolder}/MorocoPetsApplication/MorocoPetsApplication.csproj"
+          ],
+          "problemMatcher": "$msCompile",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      }
+  ]
+}
