@@ -38,10 +38,46 @@ internal class Program
                 Console.Clear();
                 System.Console.WriteLine("The terminal was resized.");
             }
-            Move();
+            else
+            {
+                 if (PlayerIsFaster()) 
+                {
+                Move(3, false);
+                } 
+                else if (PlayerIsSick()) 
+                {
+                    FreezePlayer();
+                } else 
+                {
+                    
+                    Move(otherKeyExits: false);
+                }
+
+
+                if (GotFood())
+                {
+                    ChangePlayer();
+                    ShowFood();
+                }
+            }
            
         }
-      
+        
+        bool GotFood()
+        {
+            return playerY == foodY && playerX == foodX ;
+        }
+
+        bool PlayerIsSick() 
+        {
+            return player.Equals(states[2]);
+        }
+
+        bool PlayerIsFaster() 
+        {
+            return player.Equals(states[1]);
+        }
+            
 
         // Returns true if the Terminal was resized 
         bool TerminalResized()
@@ -70,6 +106,8 @@ internal class Program
             player = states[food];
             Console.SetCursorPosition(playerX, playerY);
             Console.Write(player);
+
+          
         }
 
         // Temporarily stops the player from moving
@@ -80,7 +118,7 @@ internal class Program
         }
 
         // Reads directional input from the Console and moves the player
-        void Move()
+        void Move( int speed = 1 , bool otherKeyExits = false )
         {
             int lastX = playerX;
             int lastY = playerY;
@@ -94,16 +132,16 @@ internal class Program
                     playerY++;
                     break;
                 case ConsoleKey.LeftArrow:
-                    playerX--;
+                    playerX-= speed;
                     break;
                 case ConsoleKey.RightArrow:
-                    playerX++;
+                    playerX+= speed;
                     break;
                 case ConsoleKey.Escape:
                     shouldExit = true;
                     break;
                 default :
-                    shouldExit = true;
+                    shouldExit = otherKeyExits;
                     break;
             }
 
@@ -113,6 +151,7 @@ internal class Program
             {
                 Console.Write(" ");
             }
+           
 
             // Keep player position within the bounds of the Terminal window
             playerX = playerX < 0 ? 0 : playerX >= width ? width : playerX;
