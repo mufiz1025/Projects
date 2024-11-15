@@ -1,0 +1,15 @@
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\bin\Debug\net8.0\ProjectOFCreatingProjects.exe
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\bin\Debug\net8.0\ProjectOFCreatingProjects.deps.json
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\bin\Debug\net8.0\ProjectOFCreatingProjects.runtimeconfig.json
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\bin\Debug\net8.0\ProjectOFCreatingProjects.dll
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\bin\Debug\net8.0\ProjectOFCreatingProjects.pdb
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.AssemblyInfoInputs.cache
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.AssemblyInfo.cs
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.csproj.CoreCompileInputs.cache
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.sourcelink.json
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.dll
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\refint\ProjectOFCreatingProjects.dll
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.pdb
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ProjectOFCreatingProjects.genruntimeconfig.cache
+C:\Users\mmanakia\projects\ProjectOFCreatingProjects\obj\Debug\net8.0\ref\ProjectOFCreatingProjects.dll

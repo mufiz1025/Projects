@@ -1,7 +1,19 @@
 {
     "version": "0.2.0",
     "configurations": [
-      
+
+      {
+        "name": "ProjectOFCreatingProjects",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build ProjectOFCreatingProjects",
+        "program": "${workspaceFolder}/ProjectOFCreatingProjects/bin/Debug/net8.0/ProjectOFCreatingProjects.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/ProjectOFCreatingProjects",
+        "stopAtEntry": false,
+        "console": "externalTerminal",
+        "internalConsoleOptions": "neverOpen"
+      },
       
       {
         "name": "ContosoPetsApplication",
