@@ -33,7 +33,7 @@ public class Program
                     animalSpecies = "dog";
                     animalID = "d1";
                     animalAge = "2";
-                    animalPhysicalDescription = "medium sized cream colored female golden retriever weighing about 45 pounds. housebroken.";
+                    animalPhysicalDescription = "extralarge sized cream colored female golden retriever weighing about 45 pounds. housebroken.";
                     animalPersonalityDescription = "loves to have her belly rubbed and likes to chase her tail. gives lots of kisses.";
                     animalNickname = "lola";
                     suggestedDonation = "85.00";
@@ -143,71 +143,80 @@ public class Program
                 case "2":
                     {
                         // #1 Display all dogs with a multiple search characteristics
-                        string dogCharacteristic = "";
-                        string[] DogBehaviour = new string[5];
+                        string petCharacteristic = "";
+                        string[] petBehaviour = new string[5];
 
-                        while (dogCharacteristic == "")
+                        while (petCharacteristic == "")
                         {
                             // #2 Prompt user for multiple comma-separated characteristics
-                            Console.WriteLine("\r\nEnter multiple terms separated by comma to search for a desired dog characteristic:");
+                            Console.WriteLine("\r\nEnter multiple terms separated by comma to search for a desired Pet characteristic: (maximum 5 search terms)");
                             readResult = Console.ReadLine().ToLower().Trim();
                             if (!string.IsNullOrEmpty(readResult))
                             {
-                                dogCharacteristic = readResult;
-                                DogBehaviour = dogCharacteristic.Split(',').Select(d => d.Trim()).ToArray(); // Trim spaces during split
+                                petCharacteristic = readResult;
+                                petBehaviour = petCharacteristic.Split(',').Select(d => d.Trim()).ToArray(); // Trim spaces during split
                                 Console.WriteLine();
                             }
                         }
 
                         // Sort the characteristics in alphabetical order
-                        Array.Sort(DogBehaviour);
+                        Array.Sort(petBehaviour);
 
-                        foreach (string db in DogBehaviour)
-                        {
-                            Console.WriteLine(db);
-                        }
-
-
-                        bool found = true;
-                        Console.WriteLine(DogBehaviour.Length);
-
+                       
+                        
                         // #4 "Rotating" animation setup
-                        string[] searchingIcons = { "|", "/", "--", "*" };
-
+                        string[] searchingIcons = { "| 3 ", "/ 2 ", "-- 1 ", "* 0 " };
+                     
+                      
                         // Loop through ourAnimals array to search for matching animals
-                        for (int i = 0; i < maxPets; i++)
-                        {
-                            if (ourAnimals[i, 1].Contains("dog"))
-                            {
-                                  // Reset for each dog
-                                //Console.WriteLine($"This is for {ourAnimals[i, 3]}");
-
-                                foreach (string icon in searchingIcons)
-                                {
-                                    Console.Write($"\rSearching our dog {ourAnimals[i, 3]}.. {icon}");
-                                    Thread.Sleep(250);
-                                }
-
-                                for (int k = 0; k < DogBehaviour.Length; k++)
-                                {
-                                    if (ourAnimals[i, 4].Contains(DogBehaviour[k]) || ourAnimals[i, 5].Contains(DogBehaviour[k]))
+                           foreach (string Behaviour in petBehaviour)
                                     {
+                                        bool behaviorMatched = false; // Tracks if any dog has the current behavior
                                         
-                                        Console.WriteLine($"The search for term '{DogBehaviour[k]}' is a match with dog '{ourAnimals[i, 3]}'");
-                                        found = true;
-                                    }
-                                    else { found = false; }
-                                    
-                                }
-                                foreach (string b in DogBehaviour)
-                                    if (found == false)
-                                    {
-                                        Console.WriteLine($"There were no matches found for the {b} characteristics in {ourAnimals[i, 3]}.");
-                                    }
+                                        for (int i = 0; i < maxPets; i++)
+                                        {
+                                            if (ourAnimals[i, 1].Contains("dog") || ourAnimals[i,1].Contains("cat"))
+                                            {
+                                                foreach (string icon in searchingIcons)
+                                                {
+                                                    Console.Write($"\rSearching our pet for {Behaviour}.... {icon} ");
+                                                    Thread.Sleep(250);
+                                                }
 
-                            }
-                           
-                        }
+                                                // Check if this specific dog has the behavior
+                                                if (ourAnimals[i, 4].Contains(Behaviour))
+                                                {
+                                                    int indexoflola = ourAnimals[i,3].IndexOf("lola");
+                                                    int indexofoscar = ourAnimals[i,3].IndexOf("oscar");
+                                                    int indexofsnow = ourAnimals[i,3].IndexOf("snow");
+                                                    int indexoflion = ourAnimals[i,3].IndexOf("Lion"); 
+                                                    int index = 0 ;
+                                                    if (ourAnimals[i,3].Contains("lola"))
+                                                      { index = indexoflola; }
+                                                    else if (ourAnimals[i,3].Contains("oscar"))
+                                                      { index = indexofoscar; }
+                                                    else if (ourAnimals[i,3].Contains("snow"))
+                                                      { index = indexofsnow; }
+                                                    else if (ourAnimals[i,3].Contains("Lion"))
+                                                      { index = indexoflion; }
+                                                    
+                                                    behaviorMatched = true; // Mark as matched for any pet
+                                                    System.Console.WriteLine($"\tThe {Behaviour} is a match in our pet { ourAnimals[i,3].Substring(index , 4) }");
+                                                    break; // Stop checking this behavior for other pets
+                                                }
+                                            }
+                                        }
+
+                                        // If no pets have the behavior, print "no match found"
+                                        if (!behaviorMatched)
+                                        {
+                                            System.Console.WriteLine($"\tNo match found for {Behaviour} in any pet.");
+                                        }
+                                        System.Console.WriteLine(" ");
+                                    }
+                            
+                        
+                      
 
                         Console.ReadLine();
 

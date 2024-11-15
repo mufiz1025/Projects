@@ -26,3 +26,4 @@ C:\Users\mmanakia\projects\MorocoPetsApplication\obj\Debug\net8.0\refint\MorocoP
 C:\Users\mmanakia\projects\MorocoPetsApplication\obj\Debug\net8.0\MorocoPetsApplication.pdb
 C:\Users\mmanakia\projects\MorocoPetsApplication\obj\Debug\net8.0\MorocoPetsApplication.genruntimeconfig.cache
 C:\Users\mmanakia\projects\MorocoPetsApplication\obj\Debug\net8.0\ref\MorocoPetsApplication.dll
+C:\Users\mmanakia\projects\MorocoPetsApplication\obj\Debug\net8.0\MorocoPetsApplication.sourcelink.json
