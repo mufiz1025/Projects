@@ -1,12 +1,13 @@
 {
     "version": "0.2.0",
     "configurations": [
+      
       {
         "name": "ExceptionHandlingGuidedProject",
         "type": "coreclr",
         "request": "launch",
         "preLaunchTask": "build ExceptionHandlingGuidedProject",
-        "program": "${workspaceFolder}/ExceptionHandlingGuidedProject/bin/Debug/net8.0/ExceptionHandlingGuidedProject.dll>",
+        "program": "${workspaceFolder}/ExceptionHandlingGuidedProject/bin/Debug/net8.0/ExceptionHandlingGuidedProject.dll",
         "args": [],
         "cwd": "${workspaceFolder}/ExceptionHandlingGuidedProject",
         "stopAtEntry": false,
