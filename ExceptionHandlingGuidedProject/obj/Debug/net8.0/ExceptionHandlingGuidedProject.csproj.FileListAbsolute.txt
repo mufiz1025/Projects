@@ -1,0 +1,15 @@
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\bin\Debug\net8.0\ExceptionHandlingGuidedProject.exe
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\bin\Debug\net8.0\ExceptionHandlingGuidedProject.deps.json
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\bin\Debug\net8.0\ExceptionHandlingGuidedProject.runtimeconfig.json
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\bin\Debug\net8.0\ExceptionHandlingGuidedProject.dll
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\bin\Debug\net8.0\ExceptionHandlingGuidedProject.pdb
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.AssemblyInfoInputs.cache
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.AssemblyInfo.cs
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.csproj.CoreCompileInputs.cache
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.sourcelink.json
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.dll
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\refint\ExceptionHandlingGuidedProject.dll
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.pdb
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ExceptionHandlingGuidedProject.genruntimeconfig.cache
+C:\Users\del\source\repos\Projects\ExceptionHandlingGuidedProject\obj\Debug\net8.0\ref\ExceptionHandlingGuidedProject.dll

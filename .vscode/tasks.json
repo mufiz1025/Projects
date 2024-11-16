@@ -2,20 +2,35 @@
   "version": "2.0.0",
   "tasks": [
 
-        {
-            "label": "build ProjectOFCreatingProjects",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/ProjectOFCreatingProjects/ProjectOFCreatingProjects.csproj"
-            ],
-            "problemMatcher": "$msCompile",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
+    {
+        "label": "build ExceptionHandlingGuidedProject",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/ExceptionHandlingGuidedProject/ExceptionHandlingGuidedProject.csproj"
+        ],
+        "problemMatcher": "$msCompile",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    },
+
+    {
+        "label": "build ProjectOFCreatingProjects",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/ProjectOFCreatingProjects/ProjectOFCreatingProjects.csproj"
+        ],
+        "problemMatcher": "$msCompile",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    },
       {
           "label": "build ContosoPetsApplication",
           "command": "dotnet",
