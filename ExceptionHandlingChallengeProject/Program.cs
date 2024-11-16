@@ -86,7 +86,7 @@ internal class Program
 
                             
             
-            bool isCatchHit = false;
+            bool? isCatchHit = false;
             try
             {
                 // MakeChange manages the transaction and updates the till 
