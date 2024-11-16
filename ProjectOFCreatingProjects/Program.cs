@@ -29,8 +29,8 @@ internal class Program
         // Index of the current food
         int food = 0;
 
-        InitializeGame();
-        while (!shouldExit)
+        InitializeGame();           // Initialises the game by clearing the console ,calling showfood()and printing the player state at(0,0)cordinate.
+        while (!shouldExit)         // while statement is control-flow your game.
         {
             if (TerminalResized())
             {
@@ -52,8 +52,6 @@ internal class Program
                     
                     Move(otherKeyExits: false);
                 }
-
-
                 if (GotFood())
                 {
                     ChangePlayer();
