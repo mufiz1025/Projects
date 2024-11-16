@@ -1,14 +1,13 @@
 {
   "version": "2.0.0",
   "tasks": [
-
     {
-        "label": "build ExceptionHandlingGuidedProject",
+        "label": "build ExceptionHandlingChallengeProject",
         "command": "dotnet",
         "type": "process",
         "args": [
             "build",
-            "${workspaceFolder}/ExceptionHandlingGuidedProject/ExceptionHandlingGuidedProject.csproj"
+            "${workspaceFolder}/ExceptionHandlingChallengeProject/ExceptionHandlingChallengeProject.csproj"
         ],
         "problemMatcher": "$msCompile",
         "group": {
@@ -16,7 +15,6 @@
             "isDefault": true
         }
     },
-
     {
         "label": "build ProjectOFCreatingProjects",
         "command": "dotnet",
@@ -31,33 +29,33 @@
             "isDefault": true
         }
     },
-      {
-          "label": "build ContosoPetsApplication",
-          "command": "dotnet",
-          "type": "process",
-          "args": [
-              "build",
-              "${workspaceFolder}/ContosoPetsApplication/ContosoPetsApplication.csproj"
-          ],
-          "problemMatcher": "$msCompile",
-          "group": {
-              "kind": "build",
-              "isDefault": true
-          }
-      },
-      {
-          "label": "build MorocoPetsApplication",
-          "command": "dotnet",
-          "type": "process",
-          "args": [
-              "build",
-              "${workspaceFolder}/MorocoPetsApplication/MorocoPetsApplication.csproj"
-          ],
-          "problemMatcher": "$msCompile",
-          "group": {
-              "kind": "build",
-              "isDefault": true
-          }
-      }
-  ]
+    {
+        "label": "build ContosoPetsApplication",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/ContosoPetsApplication/ContosoPetsApplication.csproj"
+        ],
+        "problemMatcher": "$msCompile",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    },
+    {
+        "label": "build MorocoPetsApplication",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+            "build",
+            "${workspaceFolder}/MorocoPetsApplication/MorocoPetsApplication.csproj"
+        ],
+        "problemMatcher": "$msCompile",
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    }
+]
 }

@@ -1,0 +1,15 @@
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\bin\Debug\net8.0\ExceptionHandlingChallengeProject.exe
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\bin\Debug\net8.0\ExceptionHandlingChallengeProject.deps.json
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\bin\Debug\net8.0\ExceptionHandlingChallengeProject.runtimeconfig.json
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\bin\Debug\net8.0\ExceptionHandlingChallengeProject.dll
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\bin\Debug\net8.0\ExceptionHandlingChallengeProject.pdb
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.AssemblyInfoInputs.cache
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.AssemblyInfo.cs
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.csproj.CoreCompileInputs.cache
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.sourcelink.json
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.dll
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\refint\ExceptionHandlingChallengeProject.dll
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.pdb
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ExceptionHandlingChallengeProject.genruntimeconfig.cache
+C:\Users\del\source\repos\Projects\ExceptionHandlingChallengeProject\obj\Debug\net8.0\ref\ExceptionHandlingChallengeProject.dll

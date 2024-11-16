@@ -1,6 +1,18 @@
 {
     "version": "0.2.0",
     "configurations": [
+      {
+        "name": "ExceptionHandlingChallengeProject",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build ExceptionHandlingChallengeProject",
+        "program": "${workspaceFolder}/ExceptionHandlingChallengeProject/bin/Debug/net8.0/ExceptionHandlingChallengeProject.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/ExceptionHandlingChallengeProject",
+        "stopAtEntry": false,
+        "console": "externalTerminal",
+        "internalConsoleOptions": "neverOpen"
+      },
       
       {
         "name": "ExceptionHandlingGuidedProject",
