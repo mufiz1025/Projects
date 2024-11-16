@@ -86,9 +86,10 @@ internal class Program
 
                             
             
-            bool? isCatchHit = false;
+          
             try
             {
+               
                 // MakeChange manages the transaction and updates the till 
                 MakeChange(itemCost, cashTill,  paymentTwenties,  paymentTens,  paymentFives,  paymentOnes);
 
@@ -97,7 +98,7 @@ internal class Program
             }
             catch (InvalidOperationException e)
             {
-                isCatchHit = true;
+               
                 Console.WriteLine($"Could not complete transaction: {e.Message}");
             }
 
